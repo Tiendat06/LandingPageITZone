@@ -1,0 +1,70 @@
+
+.join-now-btn-active-itz{
+  color: $disable-color;
+  border-radius: 20px;
+  border: 5px solid $disable-color;
+  background-color: $join-now-color;
+  padding: 15px 25px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  animation: fadeIn linear 0.5s;
+
+  &:active, &:hover{
+    color: $background-color;
+    border: 5px solid $background-color;
+  }
+
+}
+
+.more-btn-active-itz{
+  color: $main-color;
+  border: 3px solid $main-color;
+  border-radius: 5px;
+  background-color: $background-color;
+  padding: 10px 25px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  animation: fadeIn linear 0.3s;
+
+  &:hover{
+    color: $background-color;
+    background-color: $main-color;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.join-iter-btn-itz{
+  background-color: $main-color;
+  color: $background-color;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  padding: 10px 25px;
+  //transition: transform ease-in-out 0.3s;
+
+  &:hover{
+    font-size: $sub-title-size;
+    //box-sizing: border-box;
+    padding: 10px 20px;
+    .join-iter-text-itz{
+      color: $only-text-color;
+    }
+  }
+
+}
+
+.watch-more-btn-itz{
+  padding: 5px 10px;
+  font-size: $text-size;
+  color: $background-color;
+  font-weight: bold;
+  border-radius: 20px;
+  border: 3px solid $background-color;
+  background-color: transparent;
+  &:hover{
+    background-color: $background-color;
+    color: $text-color;
+  }
+}

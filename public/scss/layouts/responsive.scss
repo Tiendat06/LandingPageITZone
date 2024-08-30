@@ -1,0 +1,27 @@
+/* Mobile */
+@media only screen and (max-width: 46.1875em){
+  .col-sm-0{
+    display: none !important;
+  }
+  .home-activity-right{
+    margin-top: 16px;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+  .col-md-0{
+    display: none !important;
+  }
+
+  .home-activity-right{
+    margin-top: 16px;
+  }
+}
+
+/* PC */
+@media only screen and (min-width: 64em){
+  .col-lg-0{
+    display: none !important;
+  }
+}
