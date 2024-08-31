@@ -22,11 +22,11 @@ body{
 }
 
 p{
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   @include respond-to('mobile'){
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
-  /* = 13px */
+  /* = 16px */
 }
 
 a{

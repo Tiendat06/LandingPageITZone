@@ -102,7 +102,8 @@
     .activity-local__text{
       text-align: center;
       .activity-local__para{
-        color: $main-color;
+        color: $highlight-color;
+        font-weight: bold;
       }
     }
 
@@ -116,11 +117,11 @@
         justify-content: center;
         .activity-local__logo{
           transform: rotate(-10deg);
-          border: 10px dashed $join-now-color;
+          border: 10px dashed #FEBE73;
           width: 333px;
           height: 333px;
           .activity-local__frame{
-            border: 20px solid $join-now-color;
+            border: 20px solid #FEBE73;
             width: 100%;
             height: 100%;
             .activity-local__img{
@@ -135,7 +136,7 @@
       }
 
       .activity-local__text{
-        padding-right: 100px;
+        //padding-right: 120px;
         .activity-local__text-title{
           font-weight: bold;
           color: $main-color;
@@ -144,7 +145,231 @@
 
         .activity-local__text-para{
           text-align: justify;
-          line-height: 1.8rem;
+          line-height: 2rem;
+        }
+      }
+    }
+
+    .activity-local__second{
+      margin-top: 80px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .activity-local__second-text{
+        text-align: center;
+        padding-right: 120px;
+        .activity-local__second-text-title{
+          color: $main-color;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        .activity-local__second-text-para{
+          text-align: justify;
+          line-height: 2rem;
+        }
+      }
+
+      .activity-local__second-logo{
+        width: 500px;
+        height: 500px;
+        border-top-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+        border: 15px solid #C6CEF6;
+        overflow: hidden;
+        .activity-local__second-img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .activity-local__third{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 80px;
+      .activity-local__third-logo{
+        text-align: center;
+        .activity-local__third-title{
+          color: $main-color;
+          font-weight: bold;
+          text-transform: uppercase;
+          margin-bottom: 0;
+          transform: translateY(30px);
+        }
+        .activity-local__third-img{
+
+        }
+      }
+      .activity-local__third-text{
+        padding-top: 60px;
+        .activity-local__third-para{
+          line-height: 2rem;
+          text-align: justify;
+
+        }
+      }
+    }
+
+    .activity-local__fourth{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 80px;
+      .activity-local__fourth-text{
+        text-align: center;
+        padding-right: 120px;
+        .activity-local__fourth-title{
+          color: $main-color;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        .activity-local__fourth__para{
+          text-align: justify;
+          line-height: 2rem;
+        }
+      }
+
+      .activity-local__fourth-logo{
+        width: 600px;
+        height: 300px;
+        border: 5px solid $disable-color;
+        border-radius: 20px;
+        overflow: hidden;
+        .activity-local__fourth-img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    .activity-local__fifth{
+      margin-top: 80px;
+      .activity-local__fifth-header{
+        text-align: center;
+        .activity-local__fifth-title{
+          color: $main-color;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+      }
+      .activity-local__fifth-logo{
+        text-align: center;
+        margin-bottom: 10px;
+        .activity-local__fifth-img{
+
+        }
+      }
+      .activity-local__fifth-text{
+        display: flex;
+        justify-content: center;
+        .activity-local__fifth-para{
+          width: 1020px;
+          line-height: 2rem;
+          text-align: justify;
+        }
+      }
+    }
+  }
+
+  .activity-school{
+    margin-top: 60px;
+    .activity-school__header{
+      text-align: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .activity-school__title{
+        color: $main-color;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .activity-school__para{
+        font-weight: bold;
+        line-height: 2rem;
+        width: 80%;
+        color: $highlight-color;
+      }
+    }
+
+    .activity-school__content{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+      .activity-school__content-item{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 30px;
+        .activity-school__content-img{
+          width: 300px;
+          height: 300px;
+          object-fit: cover;
+          border-radius: 20px;
+        }
+      }
+
+      .activity-school__content-text{
+        .activity-school__content-title{
+          color: $main-color;
+          padding-bottom: 10px;
+          border-bottom: 6px solid $disable-color;
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+        .activity-school__content-para{
+          line-height: 2rem;
+          margin-top: 40px;
+          letter-spacing: 1px;
+          color: #000000;
+        }
+      }
+    }
+  }
+
+  .activity-cost{
+    margin-top: 80px;
+    .activity-cost__header{
+      text-align: center;
+      .activity-cost__title{
+        color: $main-color;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      .activity-cost__sub-title{
+        color: $highlight-color;
+        font-weight: bold;
+      }
+    }
+
+    .activity-cost__content{
+      margin-top: 100px;
+      .activity-cost__first{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .activity-cost__first-text{
+          padding-left: 120px;
+          .activity-cost__first-title{
+            color: $main-color;
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+          .activity-cost__first-para{
+            margin-top: 30px;
+            letter-spacing: 1px;
+            line-height: 2rem;
+          }
+        }
+        .activity-cost__first-logo{
+          text-align: center;
+          .activity-cost__first-img{
+
+          }
         }
       }
     }
