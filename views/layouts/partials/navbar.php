@@ -9,9 +9,10 @@
 
     <header class="navbar-right col-lg-5 col-md-8 col-sm-8">
         <div class="navbar-right__icon col-lg-0">
-            <i class="navbar-right__icon-item fa-solid fa-bars"></i>
+            <i class="navbar-right__icon-item navbar-right__icon-item-bar fa-solid fa-bars"></i>
+            <i class="navbar-right__icon-item navbar-right__icon-item-xmark d-none fa-brands fa-x-twitter"></i>
         </div>
-        <ul class="navbar-right__list col-md-0 col-sm-0 list-unstyled d-flex flex-wrap">
+        <ul class="navbar-right__list col-xl-0 col-md-0 col-sm-0 list-unstyled d-flex flex-wrap">
             <li data-href="/home" class="navbar-right__item navbar-right__item-home">
                 <a href="/home">Trang chủ</a>
             </li>
@@ -28,6 +29,25 @@
                 <a href="/recruitment">Tuyển thành viên</a>
             </li>
         </ul>
+        <div class="navbar-right__responsive">
+            <ul class="navbar-right__responsive-list col-lg-0 col-xl-0 list-unstyled">
+                <li class="navbar-right__responsive-item">
+                    <a href="/home">Trang chủ</a>
+                </li>
+                <li class="navbar-right__responsive-item">
+                    <a href="/info">Về CLB</a>
+                </li>
+                <li class="navbar-right__responsive-item">
+                    <a href="/activity">Hoạt động</a>
+                </li>
+                <li class="navbar-right__responsive-item">
+                    <a href="/achievement">Thành tích</a>
+                </li>
+                <li class="navbar-right__responsive-item">
+                    <a href="/recruitment">Tuyển thành viên</a>
+                </li>
+            </ul>
+        </div>
     </header>
 </nav>
 <script>

@@ -16,7 +16,7 @@
             </p>
 
             <div class="home-new__btn col-lg-12 col-md-12 col-sm-12 mt-5">
-                <button class="join-now-btn-active-itz">Tham gia ngay !</button>
+                <a href="/recruitment" class="join-now-btn-active-itz">Tham gia ngay !</a>
             </div>
         </div>
     </section>
@@ -36,7 +36,7 @@
                     Câu lạc bộ học thuật IT-Zone, trực thuộc Trung tâm Ứng dụng Tin học CAIT và tọa lạc tại sảnh 5AB của trường Đại học Tôn Đức Thắng, được thành lập vào ngày ../../20xx. Với mục tiêu tạo ra một sân chơi bổ ích cho các bạn sinh viên TDTU có đam mê về công nghệ và máy tính, IT-Zone hy vọng sẽ trở thành nơi giao lưu, học hỏi và phát triển cho các bạn trẻ yêu thích lĩnh vực này.
                 </p>
                 <div class="home-intro-right__btn w-100">
-                    <button class="more-btn-active-itz">Tìm hiểu thêm</button>
+                    <a href="/info" class="more-btn-active-itz">Tìm hiểu thêm</a>
                 </div>
             </div>
         </div>
@@ -51,7 +51,7 @@
                     Kỹ thuật viên tại IT-Zone sẽ hỗ trợ sinh viên Đại học Tôn Đức Thắng từ bản quyền phần mềm đến cài đặt hệ điều hành, đặc biệt là các phiên bản Windows.  Ngoài ra, sinh viên còn được đào tạo để trở thành kỹ thuật viên, có khả năng cài đặt phần mềm học tập và hỗ trợ các bạn khác trong trường. Bên cạnh đó, IT-Zone còn cung cấp các hoạt động tìm hiểu về thiết kế đồ họa, làm việc nhóm, thuyết trình và quản lý dự án, giúp sinh viên trang bị đầy đủ kỹ năng cần thiết cho môi trường làm việc sau này.
                 </p>
                 <div class="home-activity-left__btn">
-                    <button class="more-btn-active-itz">Tìm hiểu thêm</button>
+                    <a href="/activity" class="more-btn-active-itz">Tìm hiểu thêm</a>
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
                                 <h3 class="home-activity-more--overlay-para">
                                     Cuộc thi thiết kế phần mềm
                                 </h3>
-                                <button class="watch-more-btn-itz">Xem thêm</button>
+                                <a href="/activity" class="watch-more-btn-itz">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                                 <h3 class="home-activity-more--overlay-para">
                                     Training cài đặt phần mềm
                                 </h3>
-                                <button class="watch-more-btn-itz">Xem thêm</button>
+                                <a href="/activity" class="watch-more-btn-itz">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@
                                 <h3 class="home-activity-more--overlay-para">
                                     Giải Esport sinh viên
                                 </h3>
-                                <button class="watch-more-btn-itz">Xem thêm</button>
+                                <a href="/activity" class="watch-more-btn-itz">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -130,7 +130,7 @@
                                 <h3 class="home-activity-more--overlay-para">
                                     Tech StartUp Challenge
                                 </h3>
-                                <button class="watch-more-btn-itz">Xem thêm</button>
+                                <a href="/achievement" class="watch-more-btn-itz">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                                 <h3 class="home-activity-more--overlay-para">
                                     Cuộc thi thiết kế phần mềm
                                 </h3>
-                                <button class="watch-more-btn-itz">Xem thêm</button>
+                                <a href="/achievement" class="watch-more-btn-itz">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                                 <h3 class="home-activity-more--overlay-para">
                                     Cuộc thi thiết kế phần mềm
                                 </h3>
-                                <button class="watch-more-btn-itz">Xem thêm</button>
+                                <a href="/achievement" class="watch-more-btn-itz">Xem thêm</a>
                             </div>
                         </div>
                     </div>
@@ -279,11 +279,11 @@
     </section>
     <section class="home-join">
         <div class="home-join--outer">
-            <div class="home-join__text">
+            <div class="home-join__text col-md-12 col-sm-12">
                 <h3 class="home-join__title">Bạn đã sẵn sàng chưa?</h3>
-                <a class="join-iter-btn-itz" style="cursor: pointer">Trở thành <span class="join-iter-text-itz">IT</span>ers ngay bây giờ!</a>
+                <a href="/recruitment" class="join-iter-btn-itz" style="cursor: pointer">Trở thành <span class="join-iter-text-itz">IT</span>ers ngay bây giờ!</a>
             </div>
-            <div class="home-join__bg"></div>
+            <div class="home-join__bg col-md-12 col-sm-12"></div>
         </div>
     </section>
 </div>

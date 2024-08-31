@@ -10,28 +10,28 @@
     </section>
     <section class="activity-menu">
         <div class="activity-menu__list col-lg-12 col-md-12 col-sm-12">
-            <div class="activity-menu__item">
+            <a href="#local" class="activity-menu__item">
                 <div class="activity-menu__logo">
                     <img class="activity-menu__img" src="/public/img/home/activity_4.png" alt="">
                 </div>
-                <a class="activity-menu__para">Hoạt động nội bộ</a>
-            </div>
-            <div class="activity-menu__item">
+                <p class="activity-menu__para mb-0">Hoạt động nội bộ</p>
+            </a>
+            <a href="#school" class="activity-menu__item">
                 <div class="activity-menu__logo">
                     <img class="activity-menu__img" src="/public/img/home/activity_5.png" alt="">
                 </div>
-                <a class="activity-menu__para">Hoạt động cấp trường</a>
-            </div>
-            <div class="activity-menu__item">
+                <p class="activity-menu__para mb-0">Hoạt động cấp trường</p>
+            </a>
+            <a href="#cost" class="activity-menu__item margin-top">
                 <div class="activity-menu__logo">
                     <img class="activity-menu__img" src="/public/img/home/activity_6.png" alt="">
                 </div>
-                <a class="activity-menu__para">Hoạt động được tài trợ</a>
-            </div>
+                <p class="activity-menu__para mb-0">Hoạt động được tài trợ</p>
+            </a>
         </div>
         <div class="activity-menu__border col-lg-9 col-md-9 col-sm-9"></div>
     </section>
-    <section class="activity-local">
+    <section id="local" class="activity-local">
         <div class="activity-local__header">
             <h1 class="activity-local__title">HOẠT ĐỘNG NỘI BỘ</h1>
         </div>
@@ -92,7 +92,7 @@
             </div>
         </div>
     </section>
-    <section class="activity-school">
+    <section id="school" class="activity-school">
         <div class="activity-school__header">
             <h1 class="activity-school__title col-lg-12 col-sm-12 col-md-12">Hoạt động cấp trường</h1>
             <p class="activity-school__para">CLB tổ chức các hoạt động tuyên truyền và phổ cập công nghệ cho sinh viên đại học Tôn Đức Thắng</p>
@@ -121,7 +121,7 @@
             </div>
         </div>
     </section>
-    <section class="activity-cost">
+    <section id="cost" class="activity-cost">
         <div class="activity-cost__header">
             <h1 class="activity-cost__title">Hoạt động được tài trợ</h1>
             <p class="activity-cost__sub-title">Các giải đấu được các doanh nghiệp như Garena, Intel tài trợ và do CLB tổ chức </p>
@@ -129,7 +129,7 @@
         <div class="activity-cost__content">
             <div class="activity-cost__first">
                 <div class="activity-cost__first-text col-lg-6 col-md-12 col-sm-12">
-                    <h4 class="activity-cost__first-title">Hoạt động 1</h4>
+                    <h3 class="activity-cost__first-title">Hoạt động 1</h3>
                     <p class="activity-cost__first-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deserunt dicta dignissimos dolorem doloribus, esse explicabo iste maxime molestiae numquam odit pariatur perferendis quae quia sint tempore tenetur unde vel?</p>
                 </div>
                 <div class="activity-cost__first-logo col-lg-6 col-md-12 col-sm-12">
@@ -141,7 +141,7 @@
                     <img class="activity-cost__first-img" src="/public/img/activity/activity_9.png" alt="" srcset="">
                 </div>
                 <div style="padding-right: 120px; padding-left: 0" class="activity-cost__first-text col-lg-6 col-md-12 col-sm-12">
-                    <h4 class="activity-cost__first-title" style="text-align: right">Hoạt động 2</h4>
+                    <h3 class="activity-cost__first-title" style="text-align: right">Hoạt động 2</h3>
                     <p style="text-align: right" class="activity-cost__first-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deserunt dicta dignissimos dolorem doloribus, esse explicabo iste maxime molestiae numquam odit pariatur perferendis quae quia sint tempore tenetur unde vel?</p>
                 </div>
             </div>

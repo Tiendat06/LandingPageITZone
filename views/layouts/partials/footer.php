@@ -18,7 +18,7 @@
             </div>
         </div>
     </div>
-    <div class="footer-right">
+    <div class="footer-right col-sm-0">
         <div class="footer-info">
             <div class="footer-about">
                 <div class="footer-about__header">
