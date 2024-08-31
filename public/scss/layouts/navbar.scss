@@ -23,6 +23,17 @@
   }
 
   .navbar-right{
+    .navbar-right__icon{
+      text-align: right;
+      margin-right: 30px;
+      .navbar-right__icon-item{
+        font-size: 30px;
+        padding: 5px 10px;
+        border: 1px solid $disable-color;
+        border-radius: 10px;
+        color: $disable-color;
+      }
+    }
     .navbar-right__list{
       //margin-right: 20px;
       justify-content: space-evenly;

@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98263ee3-f5b1-4107-aded-f26d02938ed4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_30_2024_1_38_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_8_30_2024_1_38_AM__Changes_.xml" afterDir="false" />
+    <list default="true" id="05c71e1d-483c-4e68-b91a-ba4025288c1a" name="Changes" comment="update a little bit of activity page">
+      <change afterPath="$PROJECT_DIR$/public/img/activity/activity_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/activity/activity_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/activity/activity_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/activity/activity_9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/activity/teambuilding.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/site/recruitment.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/recruitment.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/base/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/base/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/layouts/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/layouts/navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/pages/activity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/pages/activity.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/pages/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/pages/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/partials/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layouts/partials/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/layouts/partials/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/site/activity.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/activity.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +29,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -29,16 +48,21 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;qchau0202&quot;
+    &quot;assignee&quot;: &quot;BoiThuy&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Tiendat06/LandingPageITZone.git",
-    "accountId": "3effaceb-1ed1-436e-b241-373127c52542"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Tiendat06/LandingPageITZone.git&quot;,
+    &quot;accountId&quot;: &quot;6da9c80d-03c6-46f1-81c2-8378d98b2203&quot;
   }
-}]]></component>
-  <component name="PhpWorkspaceProjectConfiguration">
+}</component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="6f103af5-a3b4-4034-bc83-f131117d1234" name="xampp" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/test_mvc/vendor/composer" />
       <path value="$PROJECT_DIR$/test_mvc/vendor/carbonphp/carbon-doctrine-types" />
@@ -65,47 +89,461 @@
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2lQBdaKGKsudboOkiAHVVYEjb7E" />
+  <component name="ProjectId" id="2kFGKQ8sE3mWHJAPb6T8WE8K3u7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "qchau",
-    "last_opened_file_path": "C:/xampp/htdocs",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;PHP Web Page.index.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;TDat&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\public\scss\layouts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="xampp">
+      <method v="2">
+        <option name="LaunchBrowser.Before.Run" url="/" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18034.69" />
-        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18034.69" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PS-242.20224.427" />
+        <option value="bundled-php-predefined-a98d8de5180a-d6acee4cb394-com.jetbrains.php.sharedIndexes-PS-242.20224.427" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="98263ee3-f5b1-4107-aded-f26d02938ed4" name="Changes" comment="" />
-      <created>1725102509074</created>
+      <changelist id="05c71e1d-483c-4e68-b91a-ba4025288c1a" name="Changes" comment="" />
+      <created>1722871848346</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1725102509074</updated>
-      <workItem from="1725102511245" duration="387000" />
-      <workItem from="1725102910102" duration="204000" />
-      <workItem from="1725103118093" duration="936000" />
+      <updated>1722871848346</updated>
+      <workItem from="1722871849021" duration="199000" />
+      <workItem from="1722872081515" duration="1032000" />
+      <workItem from="1722873125624" duration="686000" />
+      <workItem from="1722873847082" duration="99000" />
+      <workItem from="1723012577900" duration="6070000" />
+      <workItem from="1723038949667" duration="9453000" />
+      <workItem from="1723092613258" duration="7680000" />
+      <workItem from="1723102352456" duration="747000" />
+      <workItem from="1723117028802" duration="2539000" />
+      <workItem from="1723126381780" duration="9115000" />
+      <workItem from="1723194381460" duration="3967000" />
+      <workItem from="1723204392861" duration="2686000" />
+      <workItem from="1723217513824" duration="9307000" />
+      <workItem from="1723270414861" duration="2103000" />
+      <workItem from="1723289951421" duration="1320000" />
+      <workItem from="1723298866257" duration="9821000" />
+      <workItem from="1723358900248" duration="2852000" />
+      <workItem from="1723383869624" duration="3161000" />
+      <workItem from="1723444305488" duration="606000" />
+      <workItem from="1723462687908" duration="1493000" />
+      <workItem from="1723475917750" duration="1787000" />
+      <workItem from="1723539537129" duration="5019000" />
+      <workItem from="1723547307911" duration="4239000" />
+      <workItem from="1723563632801" duration="10042000" />
+      <workItem from="1723618726313" duration="165000" />
+      <workItem from="1723620390319" duration="8638000" />
+      <workItem from="1723630447113" duration="3972000" />
+      <workItem from="1723641903100" duration="4161000" />
+      <workItem from="1723715743965" duration="657000" />
+      <workItem from="1723727330126" duration="15748000" />
+      <workItem from="1723792298890" duration="13356000" />
+      <workItem from="1723818669807" duration="53000" />
+      <workItem from="1723819043871" duration="2607000" />
+      <workItem from="1723856923513" duration="14078000" />
+      <workItem from="1723874026861" duration="7654000" />
+      <workItem from="1723893013445" duration="3450000" />
+      <workItem from="1723897545663" duration="3997000" />
+      <workItem from="1723902992534" duration="3860000" />
+      <workItem from="1723958707335" duration="8747000" />
+      <workItem from="1723986717181" duration="1372000" />
+      <workItem from="1724037887445" duration="1817000" />
+      <workItem from="1724055079322" duration="11685000" />
+      <workItem from="1724075100459" duration="7468000" />
+      <workItem from="1724166665780" duration="6268000" />
+      <workItem from="1724259759953" duration="2499000" />
+      <workItem from="1724306606376" duration="12476000" />
+      <workItem from="1724379348791" duration="315000" />
+      <workItem from="1724426723187" duration="1231000" />
+      <workItem from="1724462145432" duration="19602000" />
+      <workItem from="1724508297708" duration="6899000" />
+      <workItem from="1724591067999" duration="881000" />
+      <workItem from="1724605914910" duration="1242000" />
+      <workItem from="1724765665122" duration="623000" />
+      <workItem from="1724816071390" duration="4216000" />
+      <workItem from="1724826508238" duration="16338000" />
+      <workItem from="1724848630164" duration="13587000" />
+      <workItem from="1724929606577" duration="3402000" />
+      <workItem from="1724939674479" duration="1838000" />
+      <workItem from="1724941621725" duration="13687000" />
+      <workItem from="1725067311496" duration="13171000" />
+      <workItem from="1725083893145" duration="3816000" />
+      <workItem from="1725102285545" duration="953000" />
     </task>
+    <task id="LOCAL-00001" summary="test by TDat">
+      <option name="closed" value="true" />
+      <created>1722958130573</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722958130573</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test by TDat">
+      <option name="closed" value="true" />
+      <created>1722958139531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722958139531</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update base configuration for scss">
+      <option name="closed" value="true" />
+      <created>1723016273942</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1723016273942</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update img, please always read &quot;README.md&quot; file">
+      <option name="closed" value="true" />
+      <created>1723017122473</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723017122473</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update img, please always read &quot;README.md&quot; file">
+      <option name="closed" value="true" />
+      <created>1723017171422</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723017171422</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update site, please read SiteController to do login">
+      <option name="closed" value="true" />
+      <created>1723018686739</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723018686739</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update 1st section in home page">
+      <option name="closed" value="true" />
+      <created>1723022782767</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1723022782767</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update line-height of website in base.scss">
+      <option name="closed" value="true" />
+      <created>1723022833944</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1723022833944</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update FE for home page">
+      <option name="closed" value="true" />
+      <created>1723031807986</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1723031807986</updated>
+    </task>
+    <task id="LOCAL-00010" summary="extra update for home page">
+      <option name="closed" value="true" />
+      <created>1723032635231</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1723032635232</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update navbar and footer">
+      <option name="closed" value="true" />
+      <created>1723052137536</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1723052137536</updated>
+    </task>
+    <task id="LOCAL-00012" summary="extra commit">
+      <option name="closed" value="true" />
+      <created>1723055691547</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1723055691547</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update team-game_1 page">
+      <option name="closed" value="true" />
+      <created>1723111099486</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1723111099486</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update route for team">
+      <option name="closed" value="true" />
+      <created>1723128123040</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1723128123040</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update support question html css only (no js)">
+      <option name="closed" value="true" />
+      <created>1723144705403</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1723144705403</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update commit full css">
+      <option name="closed" value="true" />
+      <created>1723309411775</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1723309411775</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update mentor topic page">
+      <option name="closed" value="true" />
+      <created>1723403534216</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723403534216</updated>
+    </task>
+    <task id="LOCAL-00018" summary="update new DB, please run .sql file">
+      <option name="closed" value="true" />
+      <created>1723448988029</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1723448988029</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update js disable login btn in login page">
+      <option name="closed" value="true" />
+      <created>1723540304161</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1723540304161</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update new DB and hint, please check carefully">
+      <option name="closed" value="true" />
+      <created>1723553475630</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1723553475630</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update new DB and login function, please check carefully and import it to mysql">
+      <option name="closed" value="true" />
+      <created>1723573865796</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1723573865796</updated>
+    </task>
+    <task id="LOCAL-00022" summary="update new DB, page effect function and support question FE, please check carefully and import .sql file to mysql">
+      <option name="closed" value="true" />
+      <created>1723634230239</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1723634230239</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update repair login function">
+      <option name="closed" value="true" />
+      <created>1723645201154</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1723645201154</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update file .sql (for sure)">
+      <option name="closed" value="true" />
+      <created>1723727499015</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1723727499015</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update new DB, guard can open next location for team">
+      <option name="closed" value="true" />
+      <created>1723963224597</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1723963224598</updated>
+    </task>
+    <task id="LOCAL-00026" summary="repair guard js a little bit with after check delete all info in input text">
+      <option name="closed" value="true" />
+      <created>1723968307470</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1723968307470</updated>
+    </task>
+    <task id="LOCAL-00027" summary="update team rule page">
+      <option name="closed" value="true" />
+      <created>1724066649770</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1724066649771</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update bus go after challenge at Lotte and bus back while done">
+      <option name="closed" value="true" />
+      <created>1724092303365</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1724092303365</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update first page of support (extra)">
+      <option name="closed" value="true" />
+      <created>1724170078603</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1724170078603</updated>
+    </task>
+    <task id="LOCAL-00030" summary="update css">
+      <option name="closed" value="true" />
+      <created>1724317702152</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1724317702152</updated>
+    </task>
+    <task id="LOCAL-00031" summary="update notice for ban 3 minutes while enter invalid answer">
+      <option name="closed" value="true" />
+      <created>1724321485584</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1724321485584</updated>
+    </task>
+    <task id="LOCAL-00032" summary="update mentor, guard, support rule page and fix some bug related to toast and login page">
+      <option name="closed" value="true" />
+      <created>1724468701810</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1724468701810</updated>
+    </task>
+    <task id="LOCAL-00033" summary="update encoding unicode for long string">
+      <option name="closed" value="true" />
+      <created>1724487103670</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1724487103670</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update overlay loading">
+      <option name="closed" value="true" />
+      <created>1724513928070</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1724513928070</updated>
+    </task>
+    <task id="LOCAL-00035" summary="update extra">
+      <option name="closed" value="true" />
+      <created>1724516035662</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1724516035662</updated>
+    </task>
+    <task id="LOCAL-00036" summary="update js for translate location ball in support question page">
+      <option name="closed" value="true" />
+      <created>1724591343098</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1724591343098</updated>
+    </task>
+    <task id="LOCAL-00037" summary="update route.php for no route">
+      <option name="closed" value="true" />
+      <created>1724606113934</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1724606113934</updated>
+    </task>
+    <task id="LOCAL-00038" summary="update extra">
+      <option name="closed" value="true" />
+      <created>1724606555191</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1724606555191</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update css for login to make sure that iphone can be used good">
+      <option name="closed" value="true" />
+      <created>1724773466905</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1724773466905</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update function check team is done the previous question while guard wanna unlock, in addition, update is done to lotte while done mentor's letter">
+      <option name="closed" value="true" />
+      <created>1724780270966</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1724780270966</updated>
+    </task>
+    <task id="LOCAL-00041" summary="update home page and a little bit activity page">
+      <option name="closed" value="true" />
+      <created>1724957618955</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1724957618955</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update a little bit of activity page">
+      <option name="closed" value="true" />
+      <created>1725034896109</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1725034896109</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,5 +559,34 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update js disable login btn in login page" />
+    <MESSAGE value="update new DB and hint, please check carefully" />
+    <MESSAGE value="update new DB and login function, please check carefully and import it to mysql" />
+    <MESSAGE value="update new DB, page effect function and support question FE, please check carefully and import .sql file to mysql" />
+    <MESSAGE value="update repair login function" />
+    <MESSAGE value="update file .sql (for sure)" />
+    <MESSAGE value="update new DB, guard can open next location for team" />
+    <MESSAGE value="repair guard js a little bit with after check delete all info in input text" />
+    <MESSAGE value="update route for team rule" />
+    <MESSAGE value="update team rule page" />
+    <MESSAGE value="update bus go after challenge at Lotte and bus back while done" />
+    <MESSAGE value="update first page of support (extra)" />
+    <MESSAGE value="update new connect DB syntax" />
+    <MESSAGE value="update css" />
+    <MESSAGE value="update notice for ban 3 minutes while enter invalid answer" />
+    <MESSAGE value="update mentor, guard, support rule page and fix some bug related to toast and login page" />
+    <MESSAGE value="update encoding unicode for long string" />
+    <MESSAGE value="update overlay loading" />
+    <MESSAGE value="update js for translate location ball in support question page" />
+    <MESSAGE value="update route.php for no route" />
+    <MESSAGE value="update extra" />
+    <MESSAGE value="update css for login to make sure that iphone can be used good" />
+    <MESSAGE value="update function check team is done the previous question while guard wanna unlock, in addition, update is done to lotte while done mentor's letter" />
+    <MESSAGE value="update home page and a little bit activity page" />
+    <MESSAGE value="update a little bit of activity page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update a little bit of activity page" />
   </component>
 </project>
