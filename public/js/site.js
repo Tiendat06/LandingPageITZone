@@ -71,6 +71,20 @@ class Site{
             $('.navbar-right__item-recruit').addClass('active-link-itz')
         }
     }
+
+    onClickResponsiveNavbar = () => {
+        $('.navbar-right__icon-item-bar').click(() => {
+            $('.navbar-right__icon-item-bar').addClass('d-none');
+            $('.navbar-right__icon-item-xmark').removeClass('d-none');
+            $('.navbar-right__responsive').css('transform', 'translateY(10px) translateX(0%)')
+        })
+
+        $('.navbar-right__icon-item-xmark').click(() => {
+            $('.navbar-right__icon-item-bar').removeClass('d-none');
+            $('.navbar-right__icon-item-xmark').addClass('d-none');
+            $('.navbar-right__responsive').css('transform', 'translateY(10px) translateX(100%)')
+        })
+    }
 }
 
 export default new Site;

@@ -29,9 +29,13 @@
       .navbar-right__icon-item{
         font-size: 30px;
         padding: 5px 10px;
-        border: 1px solid $disable-color;
         border-radius: 10px;
         color: $disable-color;
+        animation: fadeIn ease-in-out 0.3s;
+        &:hover{
+          border: 1px solid $disable-color;
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+        }
       }
     }
     .navbar-right__list{
@@ -45,6 +49,34 @@
 
         &:hover{
           filter: brightness(90%);
+        }
+      }
+    }
+    .navbar-right__responsive{
+      position: fixed;
+      top: calc($navbar-height - 10px);
+      border-bottom-left-radius: 20px;
+      background-color: $background-color;
+      right: 0;
+      transform: translateY(10px) translateX(100%);
+      transition: transform ease-in-out 0.3s;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      border: 2px solid $main-color;
+      .navbar-right__responsive-list{
+
+        .navbar-right__responsive-item{
+          a{
+            padding: 20px;
+            color: $main-color;
+            font-size: $sub-title-size;
+            display: block;
+            width: 100%;
+            height: 100%;
+            &:hover{
+              background-color: $main-color;
+              color: $background-color;
+            }
+          }
         }
       }
     }

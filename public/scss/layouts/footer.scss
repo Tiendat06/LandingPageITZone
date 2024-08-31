@@ -28,6 +28,9 @@
     width: 30%;
     top: 0;
     left: 0;
+    @include respond-to('mobile'){
+      width: 100%;
+    }
     .footer-left__outer{
       width: 100%;
       display: flex;
@@ -54,6 +57,12 @@
         color: #FFFFFF;
         margin-bottom: 0;
         font-weight: bold;
+        @include respond-to('tablet'){
+          bottom: 45%;
+        }
+        @include respond-to('mobile'){
+          font-size: 13px;
+        }
         span{
           color: $only-text-color;
         }
@@ -68,6 +77,9 @@
           margin: 0 3px;
           height: 20px;
         }
+        @include respond-to('tablet'){
+          bottom: 30%;
+        }
       }
     }
 
@@ -81,6 +93,9 @@
     right: 0;
     width: 50%;
     height: 100%;
+    @include respond-to('tablet'){
+      width: 70%;
+    }
 
     .footer-info{
       position: relative;
