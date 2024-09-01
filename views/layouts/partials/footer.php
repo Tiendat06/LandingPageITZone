@@ -12,9 +12,15 @@
             </div>
             <p class="footer-para">CLB HỌC THUẬT IT-Z<span>O</span>NE</p>
             <div class="footer-icon">
-                <img class="footer-icon__item" src="/public/img/icon/icon_location.png" alt="">
-                <img class="footer-icon__item" src="/public/img/icon/icon_mail-filled.png" alt="">
-                <img class="footer-icon__item" src="/public/img/icon/icon_fb.png" alt="">
+                <a target="_blank" href="https://www.facebook.com/caitzone">
+                    <img class="footer-icon__item" src="/public/img/icon/icon_location.png" alt="">
+                </a>
+                <a href="mailto:clbitzone@gmail.com">
+                    <img class="footer-icon__item" src="/public/img/icon/icon_mail-filled.png" alt="">
+                </a>
+                <a target="_blank" href="https://www.facebook.com/caitzone">
+                    <img class="footer-icon__item" src="/public/img/icon/icon_fb.png" alt="">
+                </a>
             </div>
         </div>
     </div>
@@ -25,9 +31,9 @@
                     <h5 class="footer-about__title">Về chúng tôi</h5>
                 </div>
                 <div class="footer-about__text">
-                    <p class="footer-about__para">Thông tin chung</p>
-                    <p class="footer-about__para">Cơ cấu</p>
-                    <p class="footer-about__para">Thành tích</p>
+                    <a href="/" class="footer-about__para d-block">Thông tin chung</a>
+                    <a href="/info" class="footer-about__para d-block">Cơ cấu</a>
+                    <a href="/achievement" class="footer-about__para d-block">Thành tích</a>
                 </div>
             </div>
             <div class="footer-activity">
@@ -35,9 +41,9 @@
                     <h5 class="footer-about__title">Hoạt động</h5>
                 </div>
                 <div class="footer-about__text">
-                    <p class="footer-about__para">Nội bộ</p>
-                    <p class="footer-about__para">Cấp trường</p>
-                    <p class="footer-about__para">Tài trợ</p>
+                    <a href="/activity#local" class="footer-about__para d-block">Nội bộ</a>
+                    <a href="/activity#school" class="footer-about__para d-block">Cấp trường</a>
+                    <a href="/activity#cost" class="footer-about__para d-block">Tài trợ</a>
                 </div>
             </div>
             <div class="footer-support">
@@ -45,8 +51,8 @@
                     <h5 class="footer-about__title">Hỗ trợ</h5>
                 </div>
                 <div class="footer-about__text">
-                    <p class="footer-about__para">Giải đáp</p>
-                    <p class="footer-about__para">Liên hệ</p>
+                    <a target="_blank" href="https://www.facebook.com/caitzone" class="footer-about__para d-block">Giải đáp</a>
+                    <a target="_blank" href="https://www.facebook.com/caitzone" class="footer-about__para d-block">Liên hệ</a>
 <!--                    <p class="footer-about__para">Thành tích</p>-->
                 </div>
             </div>
