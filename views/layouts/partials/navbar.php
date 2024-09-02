@@ -29,25 +29,30 @@
                 <a href="/recruitment">Tuyển thành viên</a>
             </li>
         </ul>
-        <div class="navbar-right__responsive">
-            <ul class="navbar-right__responsive-list col-lg-0 col-xl-0 list-unstyled">
-                <li class="navbar-right__responsive-item">
-                    <a href="/home">Trang chủ</a>
-                </li>
-                <li class="navbar-right__responsive-item">
-                    <a href="/info">Về CLB</a>
-                </li>
-                <li class="navbar-right__responsive-item">
-                    <a href="/activity">Hoạt động</a>
-                </li>
-                <li class="navbar-right__responsive-item">
-                    <a href="/achievement">Thành tích</a>
-                </li>
-                <li class="navbar-right__responsive-item">
-                    <a href="/recruitment">Tuyển thành viên</a>
-                </li>
-            </ul>
-        </div>
+        <div class="navbar-right__responsive col-lg-0 col-xl-0 d-none">
+                <ul class="navbar-right__responsive-list col-lg-0 col-xl-0 list-unstyled">
+                    <li data-href="/home" class="navbar-right__responsive-item">
+                        <a href="#"><i class="fa-solid fa-house"></i></a>
+                        <span>Trang chủ</span>
+                    </li>
+                    <li data-href="/info" class="navbar-right__responsive-item">
+                        <a href="#"><i class="fa-solid fa-circle-info"></i></a>
+                        <span>Về CLB</span>
+                    </li>
+                    <li data-href="/activity" class="navbar-right__responsive-item">
+                        <a href="#"><i class="fa-solid fa-gamepad"></i></a>
+                        <span>Hoạt động</span>
+                    </li>
+                    <li data-href="/achievement" class="navbar-right__responsive-item">
+                        <a href="#"><i class="fa-solid fa-award"></i></a>
+                        <span>Thành tích</span>
+                    </li>
+                    <li data-href="/recruitment" class="navbar-right__responsive-item">
+                        <a href="#"><i class="fa-solid fa-people-group"></i></a>
+                        <span>Tuyển dụng</span>
+                    </li>
+                </ul>
+            </div>
     </header>
 </nav>
 <script>

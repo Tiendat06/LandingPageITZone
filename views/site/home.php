@@ -26,14 +26,14 @@
                 <img style="width: 70%;" src="/public/img/home/intro.png" alt="" srcset="">
             </div>
         </div>
-        <div class="home-intro-right col-lg-6 col-md-12 col-sm-12 mt-5">
+        <div class="home-intro-right col-lg-6 col-md-12 col-sm-12">
             <div class="home-intro-right__text">
                 <div class="home-intro-right__header">
                     <h1 class="home-intro-right__title">GIỚI THIỆU CLB IT-ZONE</h1>
                     <h4 class="home-intro-right__sub-title">Có tâm - có tầm - sẻ chia - hỗ trợ</h4>
                 </div>
                 <p class="home-intro-right__para">
-                    Câu lạc bộ học thuật IT-Zone, trực thuộc Trung tâm Ứng dụng Tin học CAIT và tọa lạc tại sảnh 5AB của trường Đại học Tôn Đức Thắng, được thành lập vào ngày ../../20xx. Với mục tiêu tạo ra một sân chơi bổ ích cho các bạn sinh viên TDTU có đam mê về công nghệ và máy tính, IT-Zone hy vọng sẽ trở thành nơi giao lưu, học hỏi và phát triển cho các bạn trẻ yêu thích lĩnh vực này.
+                    Câu lạc bộ học thuật IT-Zone, trực thuộc Trung tâm Ứng dụng Tin học CAIT và tọa lạc tại sảnh 5AB của trường Đại học Tôn Đức Thắng, được thành lập vào ngày 11/11/2016. Với mục tiêu tạo ra một sân chơi bổ ích cho các bạn sinh viên TDTU có đam mê về công nghệ và máy tính, IT-Zone hy vọng sẽ trở thành nơi giao lưu, học hỏi và phát triển cho các bạn trẻ yêu thích lĩnh vực này.
                 </p>
                 <div class="home-intro-right__btn w-100">
                     <a href="/info" class="more-btn-active-itz">Tìm hiểu thêm</a>

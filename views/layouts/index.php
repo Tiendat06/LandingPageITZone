@@ -19,5 +19,9 @@
     <?php
         include "./views/layouts/partials/footer.php";
     ?>
+
+    <?php
+        include "./views/layouts/partials/scroll_top_btn.php";
+    ?>
 </body>
 </html>

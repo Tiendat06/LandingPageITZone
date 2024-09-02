@@ -117,17 +117,30 @@
       align-items: stretch;
       height: auto;
       justify-content: center;
+      margin-top: 0;
+      @include respond-to('mobile'){
+        margin-top: 48px;
+      }
+      @include respond-to('tablet'){
+        margin-top: 48px;
+      }
       .home-intro-right__text{
         width: 80%;
         height: 80%;
         text-align: center;
-        display: flex;
+        display: inline;
         flex-wrap: wrap;
         .home-intro-right__header{
           display: flex;
           flex-wrap: wrap;
           justify-content: center;
           margin-bottom: 50px;
+          @include respond-to('mobile'){
+            margin-bottom: 30px;
+          }
+          @include respond-to('tablet'){
+            margin-bottom: 30px;
+          }
           .home-intro-right__title{
             color: $main-color;
             font-weight: bold;
@@ -169,6 +182,12 @@
           text-align: center;
           color: $main-color;
           margin-bottom: 50px;
+          @include respond-to('mobile'){
+            margin-bottom: 30px;
+          }
+          @include respond-to('tablet'){
+            margin-bottom: 30px;
+          }
           .home-activity-left__title{
             font-weight: bold;
           }
@@ -256,6 +275,12 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: space-around;
+      @include respond-to('mobile'){
+        margin-top: 20px;
+      }
+      @include respond-to('tablet'){
+        margin-top: 20px;
+      }
       .home-activity-more__item{
         @include respond-to('mobile'){
           padding: 4px!important;
@@ -317,6 +342,12 @@
     .home-achieve__list{
       margin-top: 40px;
       justify-content: space-around;
+      @include respond-to('mobile'){
+        margin-top: 20px;
+      }
+      @include respond-to('tablet'){
+        margin-top: 20px;
+      }
       .home-achieve__item{
         @include respond-to('mobile'){
           padding: 4px!important;

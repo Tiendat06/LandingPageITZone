@@ -36,7 +36,7 @@
                 <img class="recruitment__bot-content__card-img" src="/public/img/recruitment/round-2.png" alt="Recruitment stage 2">
                 <div class="recruitment__bot-content__card-text">
                     <div style="text-align: end">
-                        <h2 class="recruitment__bot-content__card-text-round">Vòng 2: Team Buildding</h2>
+                        <h2 class="recruitment__bot-content__card-text-round">Vòng 2: Team Building</h2>
                         <span class="recruitment__bot-content__card-text-date">13/10/2024</span>
                         <h3 class="recruitment__bot-content__card-text-title">Build and Test - Xây dựng và kiểm nghiệm</h3>
                         <p class="recruitment__bot-content__card-text-content">Bạn sẽ tham gia hoạt động TeamBuilding cùng với các ứng viên khác. Đây là cơ hội để bạn xây dựng mối quan hệ, thử nghiệm khả năng làm việc nhóm và thể hiện sự phối hợp trong môi trường làm việc thực tế.</p>
@@ -68,7 +68,7 @@
                 <img class="recruitment__bot-content__card-img" src="/public/img/recruitment/round-5.png" alt="Recruitment results">
                 <div class="recruitment__bot-content__card-text">
                     <h2 class="recruitment__bot-content__card-text-round">Vòng 5: Kết quả</h2>
-                    <span class="recruitment__bot-content__card-text-date">04/11/2024 - 10/11/2024</span>
+                    <span class="recruitment__bot-content__card-text-date">05/11/2024 - 08/11/2024</span>
                     <h3 class="recruitment__bot-content__card-text-title">Kết quả tuyển thành viên</h3>
                     <p class="recruitment__bot-content__card-text-content">Sau các vòng thử thách, kết quả tuyển chọn sẽ được công bố. Những ứng viên xuất sắc nhất sẽ chính thức gia nhập It-Zone, bắt đầu hành trình đổi mới và phát triển cùng chúng mình nhé.</p>
                 </div>

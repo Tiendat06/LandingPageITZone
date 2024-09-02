@@ -76,13 +76,36 @@ class Site{
         $('.navbar-right__icon-item-bar').click(() => {
             $('.navbar-right__icon-item-bar').addClass('d-none');
             $('.navbar-right__icon-item-xmark').removeClass('d-none');
-            $('.navbar-right__responsive').css('transform', 'translateY(10px) translateX(0%)')
+            $('.navbar-right__responsive').removeClass('d-none')
+            // $('.navbar-right__responsive').css('transform', 'translateY(-50%) translateX(0%)')
         })
 
         $('.navbar-right__icon-item-xmark').click(() => {
             $('.navbar-right__icon-item-bar').removeClass('d-none');
             $('.navbar-right__icon-item-xmark').addClass('d-none');
-            $('.navbar-right__responsive').css('transform', 'translateY(10px) translateX(100%)')
+            $('.navbar-right__responsive').addClass('d-none')
+            // $('.navbar-right__responsive').css('transform', 'translateY(-50%) translateX(100%)')
+        })
+    }
+
+    onClickNavbarItem = () => {
+        $('.navbar-right__responsive-item').click(function () {
+            window.location.href = $(this).data('href');
+        })
+    }
+
+    scrollToTop = () => {
+        let scrollTopBtn = $(".scroll-top__btn");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollTopBtn.addClass('d-block');
+            scrollTopBtn.removeClass('d-none');
+        } else {
+            scrollTopBtn.addClass('d-none');
+            scrollTopBtn.removeClass('d-block');
+        }
+        scrollTopBtn.click(() => {
+            document.body.scrollTop = 0; // Safari
+            document.documentElement.scrollTop = 0; // Chrome, Firefox, IE, and Opera
         })
     }
 }

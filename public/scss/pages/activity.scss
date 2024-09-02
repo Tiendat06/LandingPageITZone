@@ -209,6 +209,7 @@
         //padding-right: 120px;
         margin-top: 40px;
         .activity-local__text-title{
+          padding: 0 20px;
           font-weight: bold;
           color: $main-color;
           text-transform: uppercase;
@@ -304,15 +305,19 @@
           font-weight: bold;
           text-transform: uppercase;
           margin-bottom: 0;
-          transform: translateY(30px);
+          //transform: translateY(30px);
           @include respond-to('mobile'){
             transform: translateY(0);
+            padding: 0 20px;
           }
           @include respond-to('tablet'){
             transform: translateY(0);
+            padding: 0 20px;
           }
         }
         .activity-local__third-img{
+          width: 500px;
+          height: 376px;
           @include respond-to('mobile'){
             width: 300px;
             height: 250px;
@@ -512,6 +517,7 @@
         .activity-school__content-img{
           width: 300px;
           height: 300px;
+          box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.3);
           object-fit: cover;
           border-radius: 20px;
         }
@@ -641,6 +647,11 @@
         .activity-cost__first-logo{
           text-align: center;
           .activity-cost__first-img{
+            border-radius: 20px;
+            width: 500px;
+            height: 278px;
+            object-fit: cover;
+            box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.3);
             @include respond-to('mobile'){
               width: 300px;
               height: 200px;

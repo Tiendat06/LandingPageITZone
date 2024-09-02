@@ -11,9 +11,10 @@
   left: 0;
   right: 0;
   .navbar-left{
-    cursor: pointer;
+    //cursor: pointer;
     align-items: center;
     .navbar-left__para{
+      font-size: $title-size;
       margin-left: 10px;
       text-transform: uppercase;
       span{
@@ -54,28 +55,50 @@
     }
     .navbar-right__responsive{
       position: fixed;
-      top: calc($navbar-height - 10px);
-      border-bottom-left-radius: 20px;
+      bottom: 15px;
+      border-radius: 50px;
+      padding: 10px;
       background-color: $background-color;
-      right: 0;
-      transform: translateY(10px) translateX(100%);
+      left: 5px;
+      right: 5px;
       transition: transform ease-in-out 0.3s;
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
       border: 2px solid $main-color;
+      animation: fadeIn ease-in-out 0.5s;
       .navbar-right__responsive-list{
-
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 0;
         .navbar-right__responsive-item{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
           a{
-            padding: 20px;
+            padding: 5px 10px;
             color: $main-color;
             font-size: $sub-title-size;
-            display: block;
-            width: 100%;
-            height: 100%;
+            //display: block;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            i{
+              font-size: $text-size;
+            }
             &:hover{
               background-color: $main-color;
               color: $background-color;
+              border-radius: 50%;
             }
+          }
+          span{
+            width: 100%;
+            text-align: center;
+            font-size: 11px;
+            color: $main-color;
           }
         }
       }

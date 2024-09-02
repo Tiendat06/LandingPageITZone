@@ -13,3 +13,7 @@ window.handleButtonWhenClick = () => {
 
 site.checkPathName();
 site.onClickResponsiveNavbar();
+site.onClickNavbarItem();
+window.scrollToTop = () => {
+    site.scrollToTop();
+}
