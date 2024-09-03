@@ -44,7 +44,7 @@
             text-align: center;
           }
           @include respond-to('tablet'){
-            text-align: center;
+            //text-align: center;
           }
         }
 
@@ -57,7 +57,7 @@
             text-align: center;
           }
           @include respond-to('tablet'){
-            text-align: center;
+            //text-align: center;
           }
 
           @media (max-width: 768px) {
@@ -76,7 +76,7 @@
             text-align: center;
           }
           @include respond-to('tablet'){
-            text-align: center;
+            //text-align: center;
           }
 
           @media (max-width: 768px) {
