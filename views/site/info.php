@@ -125,7 +125,7 @@
                     </div>
                     <div class="info-structure__item-text--inner mt-4">
                         <h4 class="info-structure__item-text-subtitle">5. Trưởng ban Truyền thông (TT)</h4>
-                        <p class="info-structure__item-text-para">Là Là người đóng vai trò tư vấn và định hướng cho các hoạt động của câu lạc bộ, đảm bảo mọi hoạt động của CLB đều đúng mục tiêu và chiến lược phát triển.</p>
+                        <p class="info-structure__item-text-para">Chịu trách nhiệm về các hoạt động truyền thông của CLB, bao gồm quản lý các kênh truyền thông Fanpage của Clb, tổ chức các sự kiện truyền thông, và xây dựng hình ảnh của CLB đối với sinh viên trong trường.</p>
                     </div>
                     <div class="info-structure__item-text--inner mt-4">
                         <h4 class="info-structure__item-text-subtitle">6. Trưởng ban Hành chính - Nhân sự (HC-NS)</h4>

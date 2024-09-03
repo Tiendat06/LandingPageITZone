@@ -153,7 +153,7 @@
             </div>
             <div class="home-achieve__item p-3">
                 <div class="home-achieve__item--inner position-relative">
-                    <img class="home-achieve__img" src="/public/img/home/achieve_3.png" alt="">
+                    <img class="home-achieve__img" src="/public/img/home/achieve_2.png" alt="">
                     <div class="home-activity-more__img--overlay d-none">
                         <div class="home-activity-more__img--overlay-text">
                             <div class="home-activity-more--overlay-item text-center col-lg-12 col-md-12 col-sm-12">
