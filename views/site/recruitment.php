@@ -4,7 +4,7 @@
 ?>
 <div class="recruitment">
     <section class="recruitment__top">
-        <img class="recruitment__top-img" src="/public/img/recruitment/top-bg.png" alt="Top background">
+        <img class="recruitment__top-img col-lg-12 col-sm-0 col-md-0" src="/public/img/recruitment/top-bg.png" alt="Top background">
         <div class="recruitment__top-content">
             <div class="recruitment__top-content__text">
                 <p class="recruitment__top-content__text-welcome">Welcome to IT-Zone</p>
@@ -13,7 +13,7 @@
                     <img class="recruitment__top-content__text-logo" src="/public/img/recruitment/IT-ZONE.png" alt="IT-ZONE logo">
                 </div>
                 <div class="recruitment__top-button--outer">
-                    <a target="_blank" href="https://forms.gle/PxiyJf4Z3GcpEzwu7" class="recruitment__top-button">Đăng kí ngay!</a>
+                    <a target="_blank" href="https://forms.gle/PxiyJf4Z3GcpEzwu7" style="padding: 10px 25px" class="join-now-btn-active-itz">Đăng kí ngay !</a>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
                 </div>
             </div>
             <div class="recruitment__bot-content__card">
-                <img class="recruitment__bot-content__card-img" src="/public/img/recruitment/rec_4.png" alt="Recruitment stage 4">
+                <img class="recruitment__bot-content__card-img" src="/public/img/recruitment/recruit_v4.png" alt="Recruitment stage 4">
 
                 <div class="recruitment__bot-content__card-text">
                     <div style="text-align: end">

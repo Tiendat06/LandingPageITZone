@@ -138,12 +138,12 @@
             </div>
             <div class="home-achieve__item p-3">
                 <div class="home-achieve__item--inner position-relative">
-                    <img class="home-achieve__img" src="/public/img/home/achieve_2.png" alt="">
+                    <img class="home-achieve__img" src="/public/img/home/TK_CT_UD_2024.png" alt="">
                     <div class="home-activity-more__img--overlay d-none">
                         <div class="home-activity-more__img--overlay-text">
                             <div class="home-activity-more--overlay-item text-center col-lg-12 col-md-12 col-sm-12">
                                 <h3 class="home-activity-more--overlay-para">
-                                    Cuộc thi thiết kế phần mềm
+                                    Cuộc thi thiết kế, chế tạo, ứng dụng
                                 </h3>
                                 <a href="/achievement" class="watch-more-btn-itz">Xem thêm</a>
                             </div>

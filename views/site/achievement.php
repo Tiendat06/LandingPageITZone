@@ -226,12 +226,13 @@
                     <div class="achievement-table__info--2023-award">
                         <img class="achievement-table__info--2023-award__frame" src=".\public\img\achievement\award.png" alt="">
                         <div class="achievement-table__info--2023-award__month">Tháng 2</div>
-                        <div class="achievement-table__info--2023-award__name">Giải nhì IT Concert 2023</div>
+                        <div class="achievement-table__info--2023-award__name">Á Quân IT Concert 2023</div>
                         <div class="achievement-table__info--2023-award__content">
                             <p><b>Sinh viên thực hiện:</b></p>
                             <p>+ Lê Tùng Dương - Kỹ thuật viên IT-Zone.</p>
                             <p>+ Danh Nguyễn Nhựt An - Kỹ thuật viên IT-Zone.</p>
                             <p>+ Nguyễn Đình Anh Khoa - Sinh viên khoa CNTT.</p>
+                            <img src="/public/img/achievement/itconcern-second.jpg" alt="">
                         </div>
                     </div>
                 </div>
