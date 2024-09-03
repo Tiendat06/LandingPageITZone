@@ -4,7 +4,7 @@
 ?>
 <div class="recruitment">
     <section class="recruitment__top">
-        <img class="recruitment__top-img col-lg-12 col-sm-0 col-md-12" src="/public/img/recruitment/top-bg.png" alt="Top background">
+        <img class="recruitment__top-img col-lg-12 col-sm-0 col-md-0" src="/public/img/recruitment/top-bg.png" alt="Top background">
         <div class="recruitment__top-content">
             <div class="recruitment__top-content__text">
                 <p class="recruitment__top-content__text-welcome">Welcome to IT-Zone</p>

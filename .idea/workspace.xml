@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05c71e1d-483c-4e68-b91a-ba4025288c1a" name="Changes" comment="update fix bug (fontsize in mobile achievement page, remove top bg in mobile and tablet, change img in home and recruit page)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="05c71e1d-483c-4e68-b91a-ba4025288c1a" name="Changes" comment="update extra">
+      <change beforePath="$PROJECT_DIR$/public/scss/layouts/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/layouts/responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scss/pages/recruitment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/scss/pages/recruitment.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/site/recruitment.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/site/recruitment.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -563,7 +564,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725355789395</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="update extra">
+      <option name="closed" value="true" />
+      <created>1725356764783</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1725356764783</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,7 +607,6 @@
     <MESSAGE value="update overlay loading" />
     <MESSAGE value="update js for translate location ball in support question page" />
     <MESSAGE value="update route.php for no route" />
-    <MESSAGE value="update extra" />
     <MESSAGE value="update css for login to make sure that iphone can be used good" />
     <MESSAGE value="update function check team is done the previous question while guard wanna unlock, in addition, update is done to lotte while done mentor's letter" />
     <MESSAGE value="update home page and a little bit activity page" />
@@ -607,6 +615,7 @@
     <MESSAGE value="update content for page recruitment and fix some responsive bug, update error page, footer page, update link for home, activity, recruitment page" />
     <MESSAGE value="update content for activity page, update navbar for tablet and mobile, update scroll to top btn" />
     <MESSAGE value="update fix bug (fontsize in mobile achievement page, remove top bg in mobile and tablet, change img in home and recruit page)" />
-    <option name="LAST_COMMIT_MESSAGE" value="update fix bug (fontsize in mobile achievement page, remove top bg in mobile and tablet, change img in home and recruit page)" />
+    <MESSAGE value="update extra" />
+    <option name="LAST_COMMIT_MESSAGE" value="update extra" />
   </component>
 </project>
