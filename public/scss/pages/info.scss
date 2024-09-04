@@ -214,12 +214,13 @@
       }
 
       .info-structure__content-vertical{
-        width: 2px;
+        width: 0;
+        border: 2px dashed $background-color;
         height: 100%;
         position: absolute;
         top: 0;
         left: calc(30px + 17px + 5px);
-        background-color: $background-color;
+        //background-color: $background-color;
       }
     }
   }
