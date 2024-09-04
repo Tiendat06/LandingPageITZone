@@ -4,9 +4,9 @@
 
     if($_SERVER['REQUEST_METHOD'] == 'GET'){
         if(isset($_GET['param_1']) && isset($_GET['param_2']) && isset($_GET['param_3'])){
-
+            $siteController->error_404();
         } else if(isset($_GET['param_1']) && isset($_GET['param_2'])){
-
+            $siteController->error_404();
         } else if(isset($_GET['param_1'])){
             switch ($_GET['param_1']) {
                 case 'home':
